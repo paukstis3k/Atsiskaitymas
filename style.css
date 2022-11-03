@@ -1,0 +1,19 @@
+
+body,
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+h4,
+h5 {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+h4 {
+    color: #FF3998;
+}
