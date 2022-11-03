@@ -43,3 +43,8 @@ h4 {
     background-repeat: no-repeat;
     padding: 80px 0 16px ;
 }
+
+.vector {
+    display: flex;
+    flex-wrap: wrap;
+}
