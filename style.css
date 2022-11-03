@@ -1,7 +1,16 @@
 
+* {
+    box-sizing: border-box;
+}
+
 body,
 html {
     font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+.wrapper {
+    margin: 32px;
 }
 
 h4,
@@ -16,4 +25,21 @@ h1 {
 
 h4 {
     color: #FF3998;
+}
+
+.intro a,
+.featured a {
+    border: 2px solid orange ;
+    text-decoration: none;
+    border-radius: 40px;
+    padding: 18px 50px;
+    display: inline-block;
+    font-weight: bold;
+    color: black;
+}
+
+.color {
+    background-image: url("/background.svg");
+    background-repeat: no-repeat;
+    padding: 80px 0 16px ;
 }
