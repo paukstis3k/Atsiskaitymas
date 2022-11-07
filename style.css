@@ -10,7 +10,7 @@ html {
 }
 
 .wrapper {
-    margin: 32px;
+    padding: 32px;
 }
 
 h4,
@@ -21,10 +21,25 @@ h5 {
 
 h1 {
     font-weight: bolder;
+    font-size: 48px;
 }
 
 h4 {
     color: #FF3998;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    margin-bottom: 40px;
 }
 
 .intro a,
@@ -38,13 +53,103 @@ h4 {
     color: black;
 }
 
+.intro p {
+    margin-bottom: 30px;
+}
+
+.intro a {
+    margin-bottom: 40px;
+}
+
 .color {
     background-image: url("/background.svg");
     background-repeat: no-repeat;
-    padding: 80px 0 16px ;
+    padding: 60px 0 16px ;
 }
 
 .vector {
     display: flex;
     flex-wrap: wrap;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons img {
+    height: auto;
+    max-width: 100%;
+    margin: 20px;
+}
+
+.burger {
+    height: 20px;
+}
+
+span {
+    text-decoration: underline;
+}
+
+.featured > h1 {
+    font-size: 56px;
+}
+
+
+
+.section-intro {
+    position: relative;
+}
+
+.purple-hero {
+    background-image: url("/purple-hero.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 175.69px;
+    position: absolute;
+    left: 230px;
+    right: 0;
+    top: 100px;
+}
+
+.green-hero {
+    background-image: url("/green-hero.svg");
+    background-size: cover;
+    height: 467px;
+    width: 206px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 50%;
+    top: -100px;
+}
+.footer-icons {
+    margin: 30px;
+}
+
+.footer-icons a {
+    margin-left: 8px;
+}
+
+nav h5,
+nav li a {
+    color: #555555;
+}
+
+footer span {
+    color: #999999;
+    text-decoration: none;
+}
+
+.card div {
+    display: flex;
+    justify-content: space-between;
 }
