@@ -178,12 +178,15 @@ nav {
     overflow-x:scroll;
 }
 
-.card footer {
+.card-footer ul {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
 }
 
-.card-footer div {
-    justify-content: space-between;
+.card-footer-wrapper {
+    padding: 10px;
+}
 
+.card-footer ul {
+    padding: 0;
 }
