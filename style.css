@@ -103,8 +103,6 @@ span {
     font-size: 56px;
 }
 
-
-
 .section-intro {
     position: relative;
 }
@@ -121,26 +119,36 @@ span {
     top: 100px;
 }
 
+.featured {
+    position: relative;
+}
+
 .green-hero {
     background-image: url("/green-hero.svg");
     background-size: cover;
-    height: 467px;
+    height: 490px;
     width: 206px;
     background-repeat: no-repeat;
-    position: relative;
-    left: 50%;
-    top: -100px;
+    position: absolute;
+    left: 220px;
+    z-index: -1;
 }
-.footer-icons {
-    margin: 30px;
+
+footer nav  {
+
 }
 
 .footer-icons a {
-    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.footer-icons a img {
+    margin-top: 10px;
 }
 
 nav h5,
-nav li a {
+nav li a,
+footer p {
     color: #555555;
 }
 
@@ -149,7 +157,33 @@ footer span {
     text-decoration: none;
 }
 
+footer ul {
+    padding: 0;
+}
+
 .card div {
     display: flex;
     justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.scroll {
+    background-color: #EEEEEE;
+    display: flex;
+    gap: 30px;
+    overflow-x:scroll;
+}
+
+.card footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-footer div {
+    justify-content: space-between;
+
 }
